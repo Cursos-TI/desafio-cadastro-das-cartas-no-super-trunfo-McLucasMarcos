@@ -4,10 +4,10 @@ int main(){
 
 int nome;
 char codigo;
-float população;
-double área;
+float populacao;
+double area;
 double PIB;
-int turísticos;
+int turisticos;
 
 printf("Digite o nome da cidade: \n");
 scanf("%d", &nome);
