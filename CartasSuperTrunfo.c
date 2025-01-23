@@ -2,32 +2,26 @@
 
 int main(){
 
-int nome;
-float populacao;
-float area;
-float PIB;
-int turisticos;
-char codigo[10];
+int população; 
+double area;
+double pib;
+int pontosturisticos;
+char codigo;
 
-printf("Digite o nome da cidade: \n");
-scanf("%d", &nome);
+printf("insira a populacao\n");
+scanf("%d\n", população);
 
-printf("Digite a Populacao: \n");
-scanf("%f", &populacao);
+printf("insira a area\n");
+scanf("%f\n", area);
 
-printf("Digite a area da cidade: \n");
-scanf("%f", &area);
+printf("insira o pib");
+scanf("%f\n", pib);
 
-printf("Digite o pib da cidade: \n");
-scanf("%f", &PIB);
+printf("insira os pontos turisticos\n");
+scanf("%d\n", pontosturisticos);
 
-printf("Digite o numero de pontos turisticos: \n");
-scanf("%d", &turisticos);
-
-printf("Digite o Codigo da Cidade: \n");
-scanf("%c", &codigo);
-
-return 0;
+printf("insira o codigo da cidade\n");
+scanf("%s\n", codigo);
 
 
 }
