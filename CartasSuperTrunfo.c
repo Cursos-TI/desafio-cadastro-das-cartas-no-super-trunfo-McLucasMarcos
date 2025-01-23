@@ -2,26 +2,25 @@
 
 int main(){
 
-int população; 
-double area;
-double pib;
+int populacao; 
+float area;
+float pib;
 int pontosturisticos;
-char codigo;
 
-printf("insira a populacao\n");
-scanf("%d\n", população);
+printf("insira a populacao: \n");
+scanf("%d", &populacao);
 
-printf("insira a area\n");
-scanf("%f\n", area);
+printf("insira a area: \n");
+scanf("%f", &area);
 
-printf("insira o pib");
-scanf("%f\n", pib);
+printf("insira o pib: \n");
+scanf("%f", &pib);
 
-printf("insira os pontos turisticos\n");
-scanf("%d\n", pontosturisticos);
+printf("insira os pontos turisticos: \n");
+scanf("%d", &pontosturisticos);
 
-printf("insira o codigo da cidade\n");
-scanf("%s\n", codigo);
+
+
 
 
 }
