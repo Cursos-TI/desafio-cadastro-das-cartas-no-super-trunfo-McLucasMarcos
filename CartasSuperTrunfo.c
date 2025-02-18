@@ -7,107 +7,68 @@ float area;
 float pib;
 int pontosturisticos;
 char codigo[10];
-char nome[20];
+char nome [50];
+char estado [5];
 
-printf("insira a populacao: \n");
-scanf("%f", &populacao);
+printf("Digite o estado:\n");
+scanf("%s", &estado);
 
-printf("insira a area: \n");
-scanf("%f", &area);
-
-printf("insira o pib: \n");
-scanf("%f", &pib);
-
-printf("insira os pontos turisticos: \n");
-scanf("%d", &pontosturisticos);
-
-printf("insira o código da cidade: \n");
+printf("Digite o Código:\n");
 scanf("%s", &codigo);
 
-printf("insira o nome da cidade: \n");
-scanf("%s", &nome);
+printf("Digite o nome da cidade:\n");
+scanf("%s\n", &nome);
 
-printf("Nome da Cidade: %s\n", nome);
-printf("Código da Carta: %s\n", codigo);
-printf("População: %f\n", populacao);
-printf("área: %f\n", area);
-printf("PIB: %f\n", pib);
-printf("Pontos Turísticos: %d\n", pontosturisticos);
-
-printf("insira a populacao: \n");
+printf("Digite a população:\n");
 scanf("%f", &populacao);
 
-printf("insira a area: \n");
+printf("Digite a área:\n");
 scanf("%f", &area);
 
-printf("insira o pib: \n");
+printf("Digite o PIB:\n");
 scanf("%f", &pib);
 
-printf("insira os pontos turisticos: \n");
+printf("Digite o número de pontos turísticos:\n");
 scanf("%d", &pontosturisticos);
 
-printf("insira o código da cidade: \n");
+
+printf("Carta 1:\n");
+printf("Estado:\n", estado);
+printf("Nome da Cidade\n", nome);
+printf("População:\n", populacao);
+printf("Área:\n", area);
+printf("PIB:\n", pib);
+printf("Número de Pontos Turísticos:\n", pontosturisticos);
+
+printf("Digite o estado:\n");
+scanf("%s", &estado);
+
+printf("Digite o Código:\n");
 scanf("%s", &codigo);
 
-printf("insira o nome da cidade: \n");
+printf("Digite o nome da cidade:\n");
 scanf("%s", &nome);
 
-printf("Nome da Cidade: %s\n", nome);
-printf("Código da Carta: %s\n", codigo);
-printf("População: %f\n", populacao);
-printf("área: %f\n", area);
-printf("PIB: %f\n", pib);
-printf("Pontos Turísticos: %d\n", pontosturisticos);
-
-printf("insira a populacao: \n");
+printf("Digite a população:\n");
 scanf("%f", &populacao);
 
-printf("insira a area: \n");
+printf("Digite a área:\n");
 scanf("%f", &area);
 
-printf("insira o pib: \n");
+printf("Digite o PIB:\n");
 scanf("%f", &pib);
 
-printf("insira os pontos turisticos: \n");
+printf("Digite o número de pontos turísticos:\n");
 scanf("%d", &pontosturisticos);
 
-printf("insira o código da cidade: \n");
-scanf("%s", &codigo);
+printf("Carta 2:\n");
+printf("Estado:\n", estado);
+printf("Nome da Cidade\n", nome);
+printf("População:\n", populacao);
+printf("Área:\n", area);
+printf("PIB:\n", pib);
+printf("Número de Pontos Turísticos:\n", pontosturisticos);
 
-printf("insira o nome da cidade: \n");
-scanf("%s", &nome);
-
-printf("Nome da Cidade: %s\n", nome);
-printf("Código da Carta: %s\n", codigo);
-printf("População: %f\n", populacao);
-printf("área: %f\n", area);
-printf("PIB: %f\n", pib);
-printf("Pontos Turísticos: %d\n", pontosturisticos);
-
-printf("insira a populacao: \n");
-scanf("%f", &populacao);
-
-printf("insira a area: \n");
-scanf("%f", &area);
-
-printf("insira o pib: \n");
-scanf("%f", &pib);
-
-printf("insira os pontos turisticos: \n");
-scanf("%d", &pontosturisticos);
-
-printf("insira o código da cidade: \n");
-scanf("%s", &codigo);
-
-printf("insira o nome da cidade: \n");
-scanf("%s", &nome);
-
-printf("Nome da Cidade: %s\n", nome);
-printf("Código da Carta: %s\n", codigo);
-printf("População: %f\n", populacao);
-printf("área: %f\n", area);
-printf("PIB: %f\n", pib);
-printf("Pontos Turísticos: %d\n", pontosturisticos);
 
 
 return 0;
