@@ -39,11 +39,11 @@ printf("Estado: %s\n", estado);
 printf("Código: %s\n", codigo);
 printf("Nome da Cidade: %s\n", nome);
 printf("População: %f\n", populacao);
-printf("Área: %f\n", area);
-printf("PIB: %f\n", pib);
+printf("Área: %f km²\n", area);
+printf("PIB: %f Bilhões de Reais\n", pib);
 printf("Número de Pontos Turísticos: %d\n", pontosturisticos);
-printf("Densidade Populacional: %f\n", populacao / area);
-printf("PIB per Capita: %f\n", pib / populacao);
+printf("Densidade Populacional: %f hab/km²\n", populacao / area);
+printf("PIB per Capita: %f Milhões de Reais\n", pib / populacao);
 
 
 printf("Digite o estado:\n");
@@ -73,11 +73,11 @@ printf("Estado: %s\n", estado);
 printf("Código: %s\n", codigo);
 printf("Nome da Cidade: %s\n", nome);
 printf("População: %f\n", populacao);
-printf("Área: %f\n", area);
-printf("PIB: %f\n", pib);
+printf("Área: %f km²\n", area);
+printf("PIB: %f Bilhões de Reais\n", pib);
 printf("Número de Pontos Turísticos: %d\n", pontosturisticos);
-printf("Densidade Populacional: %f\n", populacao / area);
-printf("PIB per Capita: %f\n", pib / populacao);
+printf("Densidade Populacional: %f hab/km²\n", populacao / area);
+printf("PIB per Capita: %f Milhões de Reais\n", pib / populacao);
 
 
 return 0;
