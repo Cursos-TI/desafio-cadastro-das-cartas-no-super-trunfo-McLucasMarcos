@@ -43,7 +43,7 @@ printf("Área: %f km²\n", area);
 printf("PIB: %f Bilhões de Reais\n", pib);
 printf("Número de Pontos Turísticos: %d\n", pontosturisticos);
 printf("Densidade Populacional: %f hab/km²\n", populacao / area);
-printf("PIB per Capita: %f Milhões de Reais\n", pib / populacao);
+printf("PIB per Capita: %f Reais\n", pib / populacao);
 
 
 printf("Digite o estado:\n");
@@ -77,7 +77,7 @@ printf("Área: %f km²\n", area);
 printf("PIB: %f Bilhões de Reais\n", pib);
 printf("Número de Pontos Turísticos: %d\n", pontosturisticos);
 printf("Densidade Populacional: %f hab/km²\n", populacao / area);
-printf("PIB per Capita: %f Milhões de Reais\n", pib / populacao);
+printf("PIB per Capita: %f Reais\n", pib / populacao);
 
 
 return 0;
