@@ -82,15 +82,35 @@ printf("Densidade Populacional: %f hab/km²\n", populacao2 / area2);
 printf("PIB per Capita: %f Reais\n", pib2 / populacao2);
 printf("Super Poder: %f\n", poder2 = populacao2 + area2 + pib2 + pontosturisticos2 + densidadepopulacional2 + pibpercapita2);
 
+printf("Carta 1 - População de Fortaleza: %f\n", populacao1);
+printf("Carta 2 - População de Manaus: %f\n", populacao2);
+if (populacao1 > populacao2)
+{
+    printf("Resultado: Carta 1 Venceu\n");
+}
+else{
+    printf("Resultado: Carta 2 Venceu\n");
+}
 
-printf("População: Carta 1 Venceu %d\n", populacao1 > populacao2 );
-printf("Área: Carta 1 Venceu %d\n", area1 > area2);
-printf("PIB: Carta 1 Venceu %d\n", pib1 > pib2);
-printf("Pontos Turísticos %d\n", pontosturisticos1 > pontosturisticos2);
-printf("Densidade Populacional: Carta 1 Venceu %d\n", densidadepopulacional1 > densidadepopulacional2 ? 1 : 0);
-printf("PIB Per Capita: Carta 1 Venceu %d\n", pibpercapita1 > pibpercapita2);
-printf("Super Poder: Carta 1 Venceu %d\n", poder1 > poder2);
+printf("Carta 1 - Área de Fortaleza: %f\n", area1);
+printf("Carta 2 - Área de Manaus: %f\n", area2);
+if (area1 > area2)
+{
+    printf("Resultado: Carta 1 Venceu\n");
+}
+else{
+    printf("Resultado: Carta 2 Venceu\n");
+}
 
+printf("Carta 1 - PIB de Fortaleza: %f\n", pib1);
+printf("Carta 2 - PIB de Manaus: %f\n", pib2);
+if (pib1 > pib2)
+{
+    printf("Resultado: Carta 1 Venceu\n");
+}
+else{
+    printf("Resultado: Carta 2 Venceu\n");
+}
 
 
 return 0;
